@@ -1,0 +1,92 @@
+body {
+    background-color: #051622;
+}
+
+.background-login {
+    background-color: #1BA098;
+
+    width: 600px;
+    height: 400px;
+
+    top: 20%;
+    left: 27%;
+
+    border-radius: 1%;
+
+    position: absolute;
+}
+
+.username-background {
+    background-color: #051622;
+
+    width: 525px;
+    height: 40px;
+
+    top: 27%;
+    left: 30%;
+
+    border-radius: 1%;
+
+    position: absolute;
+}
+
+.password-background {
+    background-color: #051622;
+
+    width: 525px;
+    height: 40px;
+
+    top: 37%;
+    left: 30%;
+
+
+    position: absolute;
+}
+
+.warning {
+    color: white;
+
+    font-size: 10px;
+    font-family: sans-serif;
+
+    top: 43%;
+    left: 30%;
+
+    position: absolute;
+}
+
+.login-button-background {
+    background-color: #051622;
+
+    width: 100px;
+    height: 50px;
+
+    top: 50%;
+    left: 45%;
+
+    position: absolute;
+}
+
+#login {
+    color: white;
+
+    font-size: 20px;
+    font-family: sans-serif;
+
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
