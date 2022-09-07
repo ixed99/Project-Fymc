@@ -11,7 +11,7 @@ body {
     top: 20%;
     left: 27%;
 
-    border-radius: 1%;
+    border-radius: 5px;
 
     position: absolute;
 }
@@ -25,7 +25,7 @@ body {
     top: 27%;
     left: 30%;
 
-    border-radius: 1%;
+    border-radius: 5px;
 
     position: absolute;
 }
@@ -39,6 +39,7 @@ body {
     top: 37%;
     left: 30%;
 
+    border-radius: 5px;
 
     position: absolute;
 }
@@ -55,29 +56,68 @@ body {
     position: absolute;
 }
 
-.login-button-background {
-    background-color: #051622;
-
-    width: 100px;
-    height: 50px;
-
-    top: 50%;
-    left: 45%;
-
-    position: absolute;
-}
-
 #login {
+    background-color: #051622;
     color: white;
 
-    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+
+    top: 49%;
+    left: 43%;
+
+    width: 130px;
+    height: 40px;
+
+    font-size: 25px;
     font-family: sans-serif;
 
     position: absolute;
 }
 
+.or {
+    color: white;
+
+    font-size: 15px;
+    font-family: sans-serif;
+
+    top: 59%;
+    left: 47%;
+
+    position: absolute;
+}
+
+.facebook {
+    top: 67%;
+    left: 35%;
+
+    width: 70px;
+    height: 70px;
 
 
+    position: absolute;
+}
+
+.gmail {
+    top: 67%;
+    left: 45.5%;
+
+
+    width: 70px;
+    height: 70px;
+
+    position: absolute;
+}
+
+.twitter {
+    top: 67%;
+    left: 56.2%;
+
+    width: 70px;
+    height: 70px;
+
+    position: absolute;
+}
 
 
 
