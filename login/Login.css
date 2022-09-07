@@ -1,5 +1,19 @@
+$desktop:1200px
+
+
+
+
+
 body {
+    padding: 30px;
+    margin: 30px;
+
+
     background-color: #051622;
+
+    @media screen and (max-width: 1200px;) and (min-width: 768px;) {
+        background-color: #051622;
+    }
 }
 
 .background-login {
@@ -121,9 +135,7 @@ body {
 .link {
     border: none;
 
-    
 }
-
 
 
 
