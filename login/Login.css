@@ -1,6 +1,7 @@
-$desktop:1200px
-
-
+$desktop:1200px; // col-xl
+$laptop:1024px;  // col-lg
+$tablet:768px;   // md
+%phone:480px;    // sm
 
 
 
@@ -11,9 +12,6 @@ body {
 
     background-color: #051622;
 
-    @media screen and (max-width: 1200px;) and (min-width: 768px;) {
-        background-color: #051622;
-    }
 }
 
 .background-login {
