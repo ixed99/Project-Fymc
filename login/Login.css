@@ -1,152 +1,161 @@
 * {
     box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: sans-serif;
 }
 
-body {
+body,html {
     padding: 30px;
     margin: 30px;
 
+    display: grid;
+
     background-color: #051622;
 }
 
-.background-login {
-    position: absolute;
+.wrapper {
+  background-color: #1BA098;
 
-    left: 50%;
-    top: 50%;
+  width: 700px;
+  height: 550px;
 
-    border-radius: 5px;
+  border-radius: 5px;
 
-    transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
 
-    transition: 0.3s ease-in-out;
+  transform: translate(-50%, -50%);
 
-    background: #1BA098;
-}
-
-@media only screen and (max-width: 3000px) {
-    .background-login {
-        width: 1200px;
-        height: 800px;
-    }
-}
-
-@media only screen and (max-width: 1800px) {
-    .background-login {
-        width: 1000px;
-        height: 700px;
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-    .background-login {
-        width: 400px;
-        height: 800px;
-    }
+  position: absolute;
 }
 
 .username-background {
-    background-color: #051622;
+  background-color: #051622;
 
-    width: 525px;
-    height: 40px;
+  width: 650px;
+  height: 60px;
 
-    top: 27%;
-    left: 30%;
+  left: 50%;
+  top: 10%;
+
+  border-radius: 5px;
+
+  transform: translate(-50%, 0);
+
+  position: absolute;
+}
+
+.style {
+  background-color: #051622;
+
+    top: 0%;
+    left: 0%;
+
+    font-size: 20px;
+
+    border: none;
 
     border-radius: 5px;
 
-    position: absolute;
+    color: white;
+
+    opacity: 100%;
+
+    width: 650px;
+    height: 60px;
+
+  position: absolute;
 }
 
 .password-background {
-    background-color: #051622;
+  background-color: #051622;
 
-    width: 525px;
-    height: 40px;
+  width: 650px;
+  height: 60px;
 
-    top: 37%;
-    left: 30%;
+  border-radius: 5px;
 
-    border-radius: 5px;
+  top: 29%;
+  left: 50%;
 
-    position: absolute;
+  transform: translate(-50%, 0);
+
+  position: absolute;
 }
 
-.warning {
-    color: white;
+.style2 {
+  background-color: #051622;
 
-    font-size: 10px;
-    font-family: sans-serif;
+    top: 0%;
+    left: 0%;
 
-    top: 43%;
-    left: 30%;
-
-    position: absolute;
-}
-
-#login {
-    background-color: #051622;
-    color: white;
+    font-size: 20px;
 
     border: none;
+
     border-radius: 5px;
 
-    top: 49%;
-    left: 43%;
+    color: white;
 
-    width: 130px;
-    height: 40px;
+    opacity: 100%;
 
-    font-size: 25px;
-    font-family: sans-serif;
+    width: 650px;
+    height: 60px;
 
-    position: absolute;
+  position: absolute;
+}
+
+.login-button {
+  background-color: #051622;
+  color: white;
+
+  width: 130px;
+  height: 60px;
+
+  top: 47%;
+  left: 50%;
+
+  font-family: sans-serif;
+  font-size: 20px;
+
+  border: none;
+
+  border-radius: 5px;
+
+  transform: translate(-50%, 0);
+
+  position: absolute;
 }
 
 .or {
-    color: white;
+  font-family: sans-serif;
+  font-size: 15px;
 
-    font-size: 15px;
-    font-family: sans-serif;
+  color: white;
 
-    top: 59%;
-    left: 47%;
 
-    position: absolute;
+  left: 50%;
+  top: 67%;
+
+  transform: translate(-50%, 0%);
+
+  position: absolute;
 }
 
-.facebook {
-    top: 67%;
-    left: 35%;
-
-    width: 70px;
-    height: 70px;
-
-    position: absolute;
+.Facebook {
+  width: 90px;
+  height: 90px;
 }
 
-.gmail {
-    top: 67%;
-    left: 45.5%;
-
-    width: 70px;
-    height: 70px;
-
-    position: absolute;
+.Twitter {
+  width: 90px;
+  height: 90px;
 }
 
-.twitter {
-    top: 67%;
-    left: 56.2%;
-
-    width: 70px;
-    height: 70px;
-
-    position: absolute;
-}
-
-.link {
-    border: none;
-
+.Gmail {
+  width: 90px;
+  height: 90px;
 }
