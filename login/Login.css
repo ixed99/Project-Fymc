@@ -1,31 +1,48 @@
-$desktop:1200px; // col-xl
-$laptop:1024px;  // col-lg
-$tablet:768px;   // md
-%phone:480px;    // sm
-
-
+* {
+    box-sizing: border-box;
+}
 
 body {
     padding: 30px;
     margin: 30px;
 
-
     background-color: #051622;
-
 }
 
 .background-login {
-    background-color: #1BA098;
+    position: absolute;
 
-    width: 600px;
-    height: 400px;
-
-    top: 20%;
-    left: 27%;
+    left: 50%;
+    top: 50%;
 
     border-radius: 5px;
 
-    position: absolute;
+    transform: translate(-50%, -50%);
+
+    transition: 0.3s ease-in-out;
+
+    background: #1BA098;
+}
+
+@media only screen and (max-width: 3000px) {
+    .background-login {
+        width: 1200px;
+        height: 800px;
+    }
+}
+
+@media only screen and (max-width: 1800px) {
+    .background-login {
+        width: 1000px;
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .background-login {
+        width: 400px;
+        height: 800px;
+    }
 }
 
 .username-background {
@@ -106,14 +123,12 @@ body {
     width: 70px;
     height: 70px;
 
-
     position: absolute;
 }
 
 .gmail {
     top: 67%;
     left: 45.5%;
-
 
     width: 70px;
     height: 70px;
@@ -130,18 +145,8 @@ body {
 
     position: absolute;
 }
+
 .link {
     border: none;
 
 }
-
-
-
-
-
-
-
-
-
-
-
