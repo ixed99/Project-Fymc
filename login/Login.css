@@ -17,39 +17,39 @@ body,html {
 }
 
 .wrapper {
-  background-color: #1BA098;
+    background-color: #1BA098;
 
-  width: 700px;
-  height: 550px;
+    width: 700px;
+    height: 550px;
 
-  border-radius: 5px;
+    border-radius: 5px;
 
-  left: 50%;
-  top: 50%;
+    left: 50%;
+    top: 50%;
 
-  transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 
-  position: absolute;
+    position: absolute;
 }
 
 .username-background {
-  background-color: #051622;
+    background-color: #051622;
 
-  width: 650px;
-  height: 60px;
+    width: 650px;
+    height: 60px;
 
-  left: 50%;
-  top: 10%;
+    left: 50%;
+    top: 10%;
 
-  border-radius: 5px;
+    border-radius: 5px;
 
-  transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
 
-  position: absolute;
+    position: absolute;
 }
 
 .style {
-  background-color: #051622;
+    background-color: #051622;
 
     top: 0%;
     left: 0%;
@@ -67,27 +67,27 @@ body,html {
     width: 650px;
     height: 60px;
 
-  position: absolute;
+    position: absolute;
 }
 
 .password-background {
-  background-color: #051622;
+    background-color: #051622;
 
-  width: 650px;
-  height: 60px;
+    width: 650px;
+    height: 60px;
 
-  border-radius: 5px;
+    border-radius: 5px;
 
-  top: 29%;
-  left: 50%;
+    top: 29%;
+    left: 50%;
 
-  transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
 
-  position: absolute;
+    position: absolute;
 }
 
 .style2 {
-  background-color: #051622;
+    background-color: #051622;
 
     top: 0%;
     left: 0%;
@@ -109,53 +109,84 @@ body,html {
 }
 
 .login-button {
-  background-color: #051622;
-  color: white;
+    transition: 0.1s ease-in-out;
 
-  width: 130px;
-  height: 60px;
+    background-color: #051622;
+    color: white;
 
-  top: 47%;
-  left: 50%;
+    width: 130px;
+    height: 60px;
 
-  font-family: sans-serif;
-  font-size: 20px;
+    top: 47%;
+    left: 50%;
 
-  border: none;
+    font-family: sans-serif;
+    font-size: 20px;
 
-  border-radius: 5px;
+    border: none;
 
-  transform: translate(-50%, 0);
+    border-radius: 5px;
 
-  position: absolute;
+    transform: translate(-50%, 0);
+
+    position: absolute;
+}
+
+.login-button:hover {
+    color: red;
+}
+.login-button:active {
+    color: green;
 }
 
 .or {
-  font-family: sans-serif;
-  font-size: 15px;
+    font-family: sans-serif;
+    font-size: 15px;
 
-  color: white;
+    color: white;
 
 
-  left: 50%;
-  top: 67%;
+    left: 50%;
+    top: 67%;
 
-  transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
 
-  position: absolute;
+    position: absolute;
 }
 
 .Facebook {
-  width: 90px;
-  height: 90px;
+    width: 90px;
+    height: 90px;
 }
 
 .Twitter {
-  width: 90px;
-  height: 90px;
+    width: 90px;
+    height: 90px;
 }
 
 .Gmail {
-  width: 90px;
-  height: 90px;
+    width: 90px;
+    height: 90px;
+}
+
+.dont-have-an-account {
+    font-size: 13px;
+
+    color: white;
+
+    left: 3.5%;
+    top: 40%;
+
+    position: absolute;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+
+    transition: 0.1s ease-in-out;
+}
+
+.link:hover {
+    color: #051622;
 }
